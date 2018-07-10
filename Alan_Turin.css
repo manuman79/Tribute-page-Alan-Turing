@@ -1,0 +1,80 @@
+
+body {
+  font-family: calibri, Sans-serif;
+  text-align: center;
+  background-image: linear-gradient(to top left, #66ffff 0%, #006666 100%);
+  font-size: 1vw;
+  }
+
+#main {
+  margin: auto;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 5vw;
+  border-radius: 0,5vw;
+  }
+
+.h1 {
+  font-family: Orbitron;
+  font-size: 3vw;
+  color: white;
+  max-width: 60vw;
+  margin: 2.5vw auto 1.5vw;
+}
+
+img {
+  max-width: 25vw;
+  display: block;
+  height: auto;
+  margin: auto;
+  border-radius: 2vw;
+  }
+
+#img-caption {
+  margin: 0.5vw auto 2vw;
+  font-family: Orbitron;
+  font-size: 1vw;
+  color: white;
+  max-width: 25vw;
+}
+
+#tribute-info {
+  margin: 30px;
+  background-color:white;
+  border-style:outset;
+  border-radius: 2vw;
+}
+
+.h2 {
+  margin: 3vw auto 1vw;
+  font-family: Orbitron;
+  font-size: 2vw;
+  color:#00308F;
+  font-weight:bold;
+  }
+
+ul {
+  margin: 2.5vw auto 2.5vw;
+  text-align: left;
+  max-width: 60vw;
+}
+
+.hyperlink-color{
+  color:#00308F;
+  font-family:Orbitron;
+  font-weight:bold;
+}
+
+.h3 {
+  padding-top: .1vw;
+  font-family: Orbitron;
+  font-size: 1.5vw;
+  font-weight:bold;
+  text-align: center;
+  max-width: 60vw;
+  margin: 2vw auto 2vw;
+}
+#bootstrap-icon {
+  max-width: 6vw;
+
+}
