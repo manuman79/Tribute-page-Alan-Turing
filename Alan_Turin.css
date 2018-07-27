@@ -1,80 +1,126 @@
-
 body {
   font-family: calibri, Sans-serif;
   text-align: center;
-  background-image: linear-gradient(to top left, #66ffff 0%, #006666 100%);
-  font-size: 1vw;
-  }
+  background-image: url('https://1.bp.blogspot.com/_hNe3jg3SpKo/TEhadhtUDTI/AAAAAAAAMQM/eW8fraVeRsc/s1600/BletchleyPark_EN-GB2010251089.jpg');
+  font-size: 1.8em;
+  max-width: auto;
+}
 
 #main {
   margin: auto;
   padding-left: 10vw;
   padding-right: 10vw;
   padding-bottom: 5vw;
-  border-radius: 0,5vw;
-  }
+  border-radius: 0.5vw;
+}
 
 .h1 {
   font-family: Orbitron;
-  font-size: 3vw;
+  font-size: 3em;
   color: white;
-  max-width: 60vw;
-  margin: 2.5vw auto 1.5vw;
+  max-width: 50em;
+  margin: 0.5em auto 0.5em;
 }
 
-img {
-  max-width: 25vw;
+#image {
+  border: 2px solid #ddd;
+  border-radius: 20px;
+  padding: 4px;
+  max-width: 25em;
   display: block;
   height: auto;
   margin: auto;
-  border-radius: 2vw;
-  }
+  
+}
 
 #img-caption {
-  margin: 0.5vw auto 2vw;
+  margin: 0.7em auto 2em;
   font-family: Orbitron;
-  font-size: 1vw;
-  color: white;
-  max-width: 25vw;
+  font-size: 0.9em;
+  color: black;
+  max-width: 25em;
+  background-color:white;
+  font-weight: bold;
+  padding: 1em auto;
+  ;
 }
 
 #tribute-info {
-  margin: 30px;
-  background-color:white;
-  border-style:outset;
+  padding: 1em 2em;
+  background-color: white;
+  border-style: outset;
   border-radius: 2vw;
 }
 
 .h2 {
-  margin: 3vw auto 1vw;
+  padding: 0 1em 1em 1em;
   font-family: Orbitron;
-  font-size: 2vw;
-  color:#00308F;
-  font-weight:bold;
-  }
-
-ul {
-  margin: 2.5vw auto 2.5vw;
-  text-align: left;
-  max-width: 60vw;
+  font-size: 2em;
+  color: #00308F;
+  font-weight: bold;
 }
 
-.hyperlink-color{
-  color:#00308F;
-  font-family:Orbitron;
-  font-weight:bold;
+ul {
+  padding: 0 5em;
+  text-align: justify;
+  list-style-type: none;
+}
+
+.hyperlink-color {
+  color: #00308F;
+  font-family: Orbitron;
+  font-weight: bold;
+}
+
+.my_signature {
+  color: white;
+  font-family: Orbitron;
+  font-size: 1, 3em;
+  font-weight: bold;
+}
+
+.my_signature_dark_scenario {
+  color: white;
 }
 
 .h3 {
-  padding-top: .1vw;
+  padding-top: 1em;
   font-family: Orbitron;
-  font-size: 1.5vw;
-  font-weight:bold;
+  font-size: 1.4em;
+  font-weight: bold;
   text-align: center;
-  max-width: 60vw;
   margin: 2vw auto 2vw;
 }
-#bootstrap-icon {
-  max-width: 6vw;
 
+/* FOR MOBILES SCREENS */
+
+@media(max-width:600px) {
+  #image {
+    max-width: 17em;
+  }
+  .h1 {
+    font-size: 2em
+  }
+  #img-caption {
+    font-size: 0.6em;
+    max-width: 25em;
+  }
+  #tribute-info {
+    padding: 1em 0.1em;
+    background-color: white;
+    border-style: outset;
+    border-radius: 2vw;
+  }
+  .h2 {
+    padding: auto;
+    font-size: 1.2em;
+  }
+  ul {
+    padding: 0 2em;
+    list-style-type: none;
+  }
+  .h3 {
+    padding: 1em;
+    font-size: 0.9em;
+  }
 }
